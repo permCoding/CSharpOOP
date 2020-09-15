@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOOP", "CSharpOOP\CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackRecurs", "StackRecurs\StackRecurs.csproj", "{68373E50-7292-4F22-841C-A1BEA1DC9103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndObject", "ClassAndObject\ClassAndObject.csproj", "{057DE95B-58AC-4907-AF80-428B9B43AEC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68373E50-7292-4F22-841C-A1BEA1DC9103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68373E50-7292-4F22-841C-A1BEA1DC9103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68373E50-7292-4F22-841C-A1BEA1DC9103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
