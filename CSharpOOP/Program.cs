@@ -16,7 +16,8 @@ namespace CSharpOOP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 fm1 = new Form1();
+            Application.Run(fm1);
         }
     }
 }
