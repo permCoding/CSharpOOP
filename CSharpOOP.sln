@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackRecurs", "StackRecurs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndObject", "ClassAndObject\ClassAndObject.csproj", "{057DE95B-58AC-4907-AF80-428B9B43AEC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonRunner", "ButtonRunner\ButtonRunner.csproj", "{CA8A96F6-E8F0-469C-A299-8209C32DFC8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057DE95B-58AC-4907-AF80-428B9B43AEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8A96F6-E8F0-469C-A299-8209C32DFC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8A96F6-E8F0-469C-A299-8209C32DFC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8A96F6-E8F0-469C-A299-8209C32DFC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8A96F6-E8F0-469C-A299-8209C32DFC8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
