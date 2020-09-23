@@ -1,13 +1,19 @@
 ## Программная инженерия ООП - 2020-2021
  
 --- 
-Объём учебной дисциплины:
+#### Объём учебной дисциплины:
 * семестр 1: Лекций - 9; л/р - 9; Зачёт  
 * семестр 2: Лекций - 9; л/р - 9; Экзамен  
 
 ## [Рейтинг группы](https://docs.google.com/spreadsheets/d/1jlt7L5XOcl_6pemtFV1jxBUGUOMnAYvBJZn3uSk4uJQ/edit?usp=sharing)  
 
----
+## [Задания к лабораторным занятиям](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB.md)  
+
+
+```
+
+```
+
 
 ### **Точки входа для дистанционных занятий:**  
 * [Первая точка входа BBB](https://bbb.psaa.ru/b/and-jcn-9at)  
