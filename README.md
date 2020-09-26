@@ -30,7 +30,7 @@
 
 ### **Полезные ссылки:**  
 *Документация по .Net*  
-https://docs.microsoft.com/ru-ru/dotnet/
+- https://docs.microsoft.com/ru-ru/dotnet/  
 
 *Установить*  
 1) **IDE** Visual Studio 2019: [ссылка](https://visualstudio.microsoft.com/ru/vs/)  
