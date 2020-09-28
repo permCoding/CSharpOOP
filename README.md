@@ -1,6 +1,36 @@
 ## Программная инженерия ООП - 2020-2021
+ 
+--- 
+#### Объём учебной дисциплины:
+* семестр 1: Лекций - 9; л/р - 9; Зачёт  
+* семестр 2: Лекций - 9; л/р - 9; Экзамен  
 
-**Полезные ссылки**  
+## [Рейтинг группы](https://docs.google.com/spreadsheets/d/1jlt7L5XOcl_6pemtFV1jxBUGUOMnAYvBJZn3uSk4uJQ/edit?usp=sharing)  
+
+## [Задания к лабораторным занятиям](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB.md)  
+
+
+```
+
+```
+
+
+### **Точки входа для дистанционных занятий:**  
+* [Первая точка входа BBB](https://bbb.psaa.ru/b/and-jcn-9at)  
+* [Вторая точка входа BBB5](https://bbb5.psaa.ru/b/and-rqi-vdx)  
+* [Третья точка входа Zoom](https://us04web.zoom.us/j/6931731236?pwd=T1lNamFoMjJtMHlSbWVKZHF2d3Qwdz09)  
+* [Четвёртая точка входа MyWebinar](https://go.mywebinar.com/npkg-qmfz-cgsl-cdtw)  
+* [Пятая точка входа Discord](https://discord.gg/8MnQJ3t)  
+
+### **Учебники тут:**  
+* [Теория](https://pcoding.ru/pdf/CSharpOOP.pdf)  
+* [Практикум](https://pcoding.ru/pdf/CSharpJunior.pdf)  
+* [Работа с БД](https://pcoding.ru/pdf/CSharpMySQL.pdf)  
+* [Примеры кода](https://pcoding.ru/pdf/CSharpHelp.pdf)  
+
+### **Полезные ссылки:**  
+*Документация по .Net*  
+- https://docs.microsoft.com/ru-ru/dotnet/  
 
 *Установить*  
 1) **IDE** Visual Studio 2019: [ссылка](https://visualstudio.microsoft.com/ru/vs/)  
@@ -17,11 +47,10 @@
 
 ---
 
-Чтобы сменить ***горячие клавиши*** в редакторе кода VS2019 на привычные вам следуйте пунктам меню:  
+Чтобы сменить ***горячие клавиши*** в редакторе кода VS2019 на привычные вам, следуйте пунктам меню (я выбрал там схему для Visual Studio Code):  
 ```
 Параметры/Окружение/Клавиатура/Применить схему назначения клавиш  
 ```
-У меня выбрана там схема для Visual Studio Code.  
 
 ---
 
@@ -40,30 +69,26 @@ Designer.cs
 Переменная sender  
 
 **Лекция 5, 6**  
+prog обработка нажатия на radioButton  
 prog Убегающая кнопка  
-
-Приоритет событий  
-Второй аргумент EventArgs e  
-
 prog Двигаем объект по форме  
 
-Динамические объекты  
+коллекция Controls  
+Второй аргумент EventArgs e  
+Элементы UI от win forms  
+Приоритет событий  
 
 ---  
 
-Лекция 7, 8
-События клавиатуры  
+**Лекция 7, 8**  
+
+динамически создаваемые объекты  
+List объектов  
 Многооконный интерфейс  
-Элементы UI от win forms  
+События клавиатуры  
+Парсер сайтов  
 
-Лекция 05
-
-Лекция 06
-
-Лекция 07
-
-Лекция 08
-
+**Лекция 9**  
 
 ---  
 
