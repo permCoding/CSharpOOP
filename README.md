@@ -82,6 +82,9 @@ prog Двигаем объект по форме
 
 **Лекция 7, 8**  
 
+[Поиграть в лягушек](https://pcoding.ru/frog/frog.html)  
+[Скачать flash и играть локально](https://github.com/permCoding/Magistr-2020/blob/master/images/frogs.swf)  
+
 динамически создаваемые объекты  
 List объектов  
 Многооконный интерфейс  
