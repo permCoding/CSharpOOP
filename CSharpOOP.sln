@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtons", "RadioButton
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelsMoving", "LabelsMoving\LabelsMoving.csproj", "{806286FA-94D6-4DFD-BBA9-86A8876D31A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagesWithRadioButtons", "ImagesWithRadioButtons\ImagesWithRadioButtons.csproj", "{99C19036-24E9-4DA3-B307-534705456104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{806286FA-94D6-4DFD-BBA9-86A8876D31A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{806286FA-94D6-4DFD-BBA9-86A8876D31A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{806286FA-94D6-4DFD-BBA9-86A8876D31A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C19036-24E9-4DA3-B307-534705456104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C19036-24E9-4DA3-B307-534705456104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C19036-24E9-4DA3-B307-534705456104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C19036-24E9-4DA3-B307-534705456104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
