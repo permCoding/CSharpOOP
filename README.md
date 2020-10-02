@@ -7,7 +7,9 @@
 
 ## [Рейтинг группы](https://docs.google.com/spreadsheets/d/1jlt7L5XOcl_6pemtFV1jxBUGUOMnAYvBJZn3uSk4uJQ/edit?usp=sharing)  
 
-## [Задания к лабораторным занятиям](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB.md)  
+## Задания к лабораторным занятиям  
+[LABRAB 1](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB1.md)  
+[LABRAB 2](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB2.md)  
 
 
 ```
