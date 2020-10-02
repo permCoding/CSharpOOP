@@ -4,7 +4,9 @@
 ---  
 
 ## LABRAB 2
-**Программа frog - Техническое задание**  
+**Программа frogs - Техническое задание**  
+
+![Скрин программы](https://github.com/permCoding/CSharpOOP/blob/master/images/frogs.jpg)  
 
 Пешем логическую игру с многооконным интерфейсом.  
 Сначала посмотрите прототип игры:  
@@ -52,6 +54,8 @@ DLL-библиотека решает задачу вычисления след
 Есть клавиша сброса текщего положения лякушек - вернуть в исходное.  
 
 ```
+
+![Скрин объекта StatusStrip](https://github.com/permCoding/CSharpOOP/blob/master/images/StatusStrip.jpg)  
 
 ---  
 
