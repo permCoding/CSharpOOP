@@ -102,7 +102,7 @@ List объектов
 
 2} механизм и события Drag-and-drop  
 
-3} коллекции Queue, Stack, Dictionary  
+3} коллекции Queue, Stack, Dictionary, HashSet  
 > [Коллекции - справка](https://metanit.com/sharp/tutorial/4.9.php)  
 > [Моё видео про коллекции в C#](https://youtu.be/Og3AFF9FKWk)  
 >> Создаем свою DLL. Работаем с Collections.
