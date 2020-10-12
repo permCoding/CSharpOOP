@@ -137,7 +137,7 @@ https://youtu.be/6pGj00h6OdM	- Как скрафтить ИНТЕРФЕЙС в C
 https://youtu.be/VDSOvAuhwlo	- Освободите Вилли - оператор using в C#  
 
 https://youtu.be/29q1Lz8ErMc	- Два способа передать значения между формами в C#  
-https://youtu.be/2EZ_E8sWQIo	- Как узнать нажатую radioButton: C# vs Delphi  
+https://youtu.be/2EZ_E8sWQIo	- Как узнать нажатую radioButton  
 https://youtu.be/z-Lp2Be24JA	- Перегрузка операций в C#  
 https://youtu.be/a4yQYJjf7Pc	- Обобщённые методы в C#  
 https://youtu.be/mF9cdmv5Q68	- Передача параметров по ссылке в C#  
