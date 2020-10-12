@@ -132,12 +132,11 @@ https://youtu.be/Lh6b6NsWFys	- static в C#
 https://youtu.be/Og3AFF9FKWk	- Динамические библиотеки. Коллекции.  
 https://youtu.be/wQKHyaN_76g	- Я черепаший БОГ - как подключить DLL  
 https://youtu.be/1TwWfJeNjHE	- Динамические компоненты в C#  
+https://youtu.be/2EZ_E8sWQIo	- Как узнать нажатую radioButton  
 https://youtu.be/vz3sj8O820E	- Перечисления в C# - enum  
 https://youtu.be/6pGj00h6OdM	- Как скрафтить ИНТЕРФЕЙС в C#  
 https://youtu.be/VDSOvAuhwlo	- Освободите Вилли - оператор using в C#  
-
 https://youtu.be/29q1Lz8ErMc	- Два способа передать значения между формами в C#  
-https://youtu.be/2EZ_E8sWQIo	- Как узнать нажатую radioButton  
 https://youtu.be/z-Lp2Be24JA	- Перегрузка операций в C#  
 https://youtu.be/a4yQYJjf7Pc	- Обобщённые методы в C#  
 https://youtu.be/mF9cdmv5Q68	- Передача параметров по ссылке в C#  
