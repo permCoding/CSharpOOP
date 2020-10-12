@@ -25,7 +25,7 @@ namespace ImagesWithRadioButtons
         {
             string currentDir = Directory.GetCurrentDirectory();
             groupBox1.Controls.Clear();
-            string[] nameImages = Directory
+            string[] nameImages = Directory  // поместите в папку Images несколько рисунков
                 .GetFiles(currentDir + "\\Images\\", "*.jpg");
             foreach (string item in nameImages)
             {
