@@ -100,7 +100,7 @@ List объектов
 
 1} подключаем готовую библиотеку frogsDLL.dll - **FrogsTestDLL**  
 
-2} механизм и события Drag-and-drop  
+2} механизм и события Drag-and-drop - **DragAndDrop_Images**  
 
 3} коллекции Queue, Stack, Dictionary, HashSet  
 > [Коллекции - справка](https://metanit.com/sharp/tutorial/4.9.php)  
