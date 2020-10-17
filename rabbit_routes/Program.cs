@@ -68,6 +68,8 @@ namespace rabbit_routes
                 return count;
             }
         }
+        
+        // версия с очередью
         static void Main(string[] args)
         {
             int[] arr = Console
