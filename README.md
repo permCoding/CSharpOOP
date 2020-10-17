@@ -100,7 +100,7 @@ List объектов
 
 1} подключаем готовую библиотеку frogsDLL.dll - **FrogsTestDLL**  
 
-2} механизм и события Drag-and-drop - **DragAndDrop_Images**  
+2} механизм и события Drag-and-drop - **DragAndDrop_Images**, **DragAndDrop_ImagesSwap**  
 
 3} коллекции Queue, Stack, Dictionary, HashSet  
 > [Коллекции - справка](https://metanit.com/sharp/tutorial/4.9.php)  
@@ -112,14 +112,14 @@ List объектов
 
 4} параметры по ссылке и по значению  
 
-5} способы решения [задачи о Зайчике](https://acmp.ru/index.asp?main=task&id_task=11)  
+5} способы решения [задачи о Зайчике](https://acmp.ru/index.asp?main=task&id_task=11) -  **rabbit_routes**  
 >- рекурсия  
 >- рекурсия с меморизацией  
 >- очередь  
 >- словарь  
 >- динамика (без разбора)  
 
-6} рекурсивное решение задачи аналог frogs  
+6} рекурсивное решение задачи аналог frogs - **ReSortWord**  
 > Есть строка из символов "ABCD" (можно другое кол-во).  
 > Размешаем введённую строку.  
 > Нужно **найти путь минимальной длины в исходную позицию**.  
