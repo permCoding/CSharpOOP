@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace rabbit_routes
@@ -70,6 +71,26 @@ namespace rabbit_routes
         }
         
         // версия с очередью
+        static int GetNumberRoutesQueue(int k, int n)
+        {
+            Queue<int> que = new Queue<int>();
+            //que.Enqueue // добавляет в конец очереди
+            //que.Dequeue // удаляет из начала очереди
+            que.Enqueue(0);
+            int count = 0;
+            while (que.Count > 0)
+            {
+                int current = que.Dequeue();
+                if (current == n) count++;
+                if (current < n)
+                    for (int step = 1; step <= k; step++)
+                    {
+                        que.Enqueue(current + step);
+                    }
+            }
+            return count;
+        }
+
         static void Main(string[] args)
         {
             int[] arr = Console
@@ -87,8 +108,10 @@ namespace rabbit_routes
             // Console.WriteLine(GetNumberRoutesMem(k, n));
 
             // способ 3
-            numberRoutesDict = new Dictionary<int, int>();
-            Console.WriteLine(GetNumberRoutesDict(k, n));
+            //numberRoutesDict = new Dictionary<int, int>();
+            //Console.WriteLine(GetNumberRoutesDict(k, n));
+
+            Console.WriteLine(GetNumberRoutesQueue(k, n));
 
             Console.ReadLine();
         }
