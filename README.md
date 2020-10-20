@@ -31,8 +31,8 @@
 * [Примеры кода](https://pcoding.ru/pdf/CSharpHelp.pdf)  
 
 ### **Полезные ссылки:**  
-*Документация по .Net*  
-- https://docs.microsoft.com/ru-ru/dotnet/  
+* [Документация по .Net](https://docs.microsoft.com/ru-ru/dotnet/)  
+* [Фрагменты кода C# по умолчанию](https://docs.microsoft.com/ru-ru/visualstudio/ide/visual-csharp-code-snippets?view=vs-2019)  
 
 *Установить*  
 1) **IDE** Visual Studio 2019: [ссылка](https://visualstudio.microsoft.com/ru/vs/)  
