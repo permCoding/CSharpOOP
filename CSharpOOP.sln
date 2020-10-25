@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogsTestDLL", "FrogsTestDL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDrop_ImagesSwap", "DragAndDrop_ImagesSwap\DragAndDrop_ImagesSwap.csproj", "{664FD0FF-9F12-4260-A83C-7064BF5C8797}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndStruct", "ClassAndStruct\ClassAndStruct.csproj", "{9220C75A-353C-49AF-85DD-922246E468C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTest", "LINQTest\LINQTest.csproj", "{B0303319-F056-4260-A3A2-DD18FB78C970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{664FD0FF-9F12-4260-A83C-7064BF5C8797}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664FD0FF-9F12-4260-A83C-7064BF5C8797}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664FD0FF-9F12-4260-A83C-7064BF5C8797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9220C75A-353C-49AF-85DD-922246E468C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9220C75A-353C-49AF-85DD-922246E468C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9220C75A-353C-49AF-85DD-922246E468C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9220C75A-353C-49AF-85DD-922246E468C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0303319-F056-4260-A3A2-DD18FB78C970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0303319-F056-4260-A3A2-DD18FB78C970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0303319-F056-4260-A3A2-DD18FB78C970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0303319-F056-4260-A3A2-DD18FB78C970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
