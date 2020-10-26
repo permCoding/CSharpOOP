@@ -344,7 +344,7 @@ namespace LINQTestQuery
 
         static void Main(string[] args)
         {
-            example_00();
+            example_17();
 
             Console.ReadLine();
         }
