@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDrop_ImagesSwap", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndStruct", "ClassAndStruct\ClassAndStruct.csproj", "{9220C75A-353C-49AF-85DD-922246E468C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTest", "LINQTest\LINQTest.csproj", "{B0303319-F056-4260-A3A2-DD18FB78C970}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTesting", "LINQTest\LINQTesting.csproj", "{B0303319-F056-4260-A3A2-DD18FB78C970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
