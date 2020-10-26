@@ -1,5 +1,5 @@
-
-### Методы LINQ  
+## Методы LINQ  
+### Language-Integrated Query  
 
 ---  
 
