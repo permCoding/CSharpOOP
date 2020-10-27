@@ -53,7 +53,7 @@ namespace LINQTestQuery
         }
         public static void example_04_yield()
         {
-            foreach (int value in GetNextOddValue())
+            foreach (int value in GetNextOddValue(5, 12))
             {
                 Console.WriteLine(value);
             }
@@ -114,9 +114,15 @@ namespace LINQTestQuery
             string text = Properties.Resources.data;
             string[] lines = text.Split('\n');
             char[] seps = new char[] { ' ', '\t', '|' };
-            List<Person> persons = lines
-                .Select(line => new Person(line.Split(seps)[0], Int32.Parse(line.Split(seps)[1])))
-                .ToList();
+            //List<Person> persons = lines
+            //    .Select(line => new Person(line.Split(seps)[0], Int32.Parse(line.Split(seps)[1])))
+            //    .ToList();
+            var persons = lines
+                .Select(line => new Person(
+                        line.Split(seps)[0], 
+                        Int32.Parse(line.Split(seps)[1])
+                    )
+                );
             foreach (var item in persons)
                 Console.WriteLine($"{item.Age}\t{item.Name}");
         }
@@ -139,7 +145,12 @@ namespace LINQTestQuery
             Person[] persons = lines
                 .Select(line => new Person(line.Split(seps)[0], Int32.Parse(line.Split(seps)[1])))
                 .ToArray();
+
+            foreach (var item in persons)
+                Console.WriteLine($"{item.Age}\t{item.Name}");
+
             AgeComparer ag = new AgeComparer();
+
             Array.Sort(persons, ag);
             foreach (var item in persons)
                 Console.WriteLine($"{item.Age}\t{item.Name}");
@@ -162,10 +173,10 @@ namespace LINQTestQuery
             string text = Properties.Resources.data;
             string[] lines = text.Split('\n');
             char[] seps = new char[] { ' ', '\t', '|' };
-            List<Person> persons = lines
-                .Select(line => new Person(line.Split(seps)[0], Int32.Parse(line.Split(seps)[1])))
-                .ToList();
-            foreach (var item in persons.OrderBy(item => item.Age))  // OrderByDescending
+            var persons = lines
+                .Select(line => new Person(line.Split(seps)[0],Int32.Parse(line.Split(seps)[1])))
+                .OrderBy(item => item.Age); // OrderByDescending
+            foreach (var item in persons)  
                 Console.WriteLine($"{item.Age}\t{item.Name}");
         }
         public static void example_12() // 12 сортировка списка объектов LINQ по двум параметрам
@@ -224,7 +235,7 @@ namespace LINQTestQuery
                 .Select(line => new Person(line.Split(seps)[0], Int32.Parse(line.Split(seps)[1])))
                 .ToList();
             var grouping_dict = persons.ToLookup(item => item.Age);
-            int age_select = 32;
+            int age_select = 32; // запрос снаружи
             foreach (var item in grouping_dict[age_select])
                 Console.WriteLine($"age={age_select} - {item.Name}");
         }
@@ -261,7 +272,7 @@ namespace LINQTestQuery
                     (g, s) => new { NG = g.NameGroup, NS = s.NameStudent }) // анонимный тип
                 .Where(item => item.NG == find_group)
                 .OrderBy(item => item.NS);
-            foreach (var item in query) //if (item.NG == select) Console.WriteLine($"{find_group} - {item.NS}");
+            foreach (var item in query) //if (item.NG == find_group) Console.WriteLine($"{find_group} - {item.NS}");
                 Console.WriteLine($"{item.NG} - {item.NS}");
         }
         public static void example_17() // 17 SelectMany комбинации сочетаний
@@ -270,7 +281,10 @@ namespace LINQTestQuery
             string line2 = "ball cube";
             var enum1 = line1.Split();
             var enum2 = line2.Split();
-            var combs = enum1.SelectMany(item1 => enum2.Select(item2 => new { Color = item1, Fig = item2 }));
+            var combs = enum1.SelectMany(item1 => enum2
+                    .Select(item2 => new { Color = item1, Fig = item2 }
+                )
+            );
             foreach (var comb in combs)
                 Console.WriteLine($"{comb.Fig} - {comb.Color}");
         }
@@ -344,7 +358,7 @@ namespace LINQTestQuery
 
         static void Main(string[] args)
         {
-            example_17();
+            example_22();
 
             Console.ReadLine();
         }
