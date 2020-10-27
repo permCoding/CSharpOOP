@@ -141,8 +141,8 @@ List объектов
 [Список методов](https://github.com/permCoding/CSharpOOP/blob/master/LINQ.md)  
 
 1} дорешиваем "Зайчика" очередью - смотрим как работает эта структура данных в C# -  **rabbit_routes**  
-2} сравниваем передачу данных по ссылке и как значение - сравниваем Class и Struct - **xxxxxxxxxx**  
-3} примеры использования методов расширения **LINQ** - **xxxxxxxxxx**  
+2} сравниваем передачу данных по ссылке и как значение - сравниваем Class и Struct - **ClassAndStruct**  
+3} примеры использования методов расширения **LINQ** - **LINQTest**  
 4} прототип проекта к лаб`е - **xxxxxxxxxx**  
 
 ---  
@@ -152,6 +152,13 @@ List объектов
 [Документация по LINQ](https://docs.microsoft.com/ru-ru/dotnet/csharp/linq/)  
 [Разбор технологии LINQ](https://professorweb.ru/my/LINQ/base/level1/info_linq.php)  
 [Список методов](https://github.com/permCoding/CSharpOOP/blob/master/LINQ.md)  
+
+Вопросы с предыдущей Лекции:  
+[ConvertTo vs Int32.Parse](https://repl.it/@pCoding/ConvertTo)  
+
+Проект с текущей Лекции **LINQTestQuery**  
+
+По данной теме будут: 1) **задания на Степике** и 2) **небольшой проект**...  
 
 ### Language-Integrated Query  
 * синтаксис **ЗАПРОСОВ**  
