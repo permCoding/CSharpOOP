@@ -29,7 +29,7 @@ var grouping = persons
     .GroupBy(item => item.Age)
     .OrderBy(item => item.Key);
 ```
-Чем больше **LINQ**, тем выше оценка.  
+Чем больше реализовано методами **LINQ**, тем выше оценка.  
 Разрешается использовать **foreach** для вывода результатов.  
 
 ---  
