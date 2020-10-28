@@ -9,8 +9,8 @@
 
 ## Задания к лабораторным занятиям  
 [LABRAB 1](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB1.md)  
-[LABRAB 2](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB2.md)  
-
+[LABRAB 2 Часть 1,2,3](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB2.md)  
+[LABRAB 3](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB3.md)  
 
 ```
 
