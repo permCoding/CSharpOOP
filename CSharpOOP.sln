@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTest", "LINQTest\LINQTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTestQuery", "LINQTestQuery\LINQTestQuery.csproj", "{5D3A60AF-2067-4477-8F7B-00B52A65C635}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQCsv", "LINQCsv\LINQCsv.csproj", "{C8749A80-B567-497E-8625-99ECD8337349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{5D3A60AF-2067-4477-8F7B-00B52A65C635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D3A60AF-2067-4477-8F7B-00B52A65C635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D3A60AF-2067-4477-8F7B-00B52A65C635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8749A80-B567-497E-8625-99ECD8337349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8749A80-B567-497E-8625-99ECD8337349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8749A80-B567-497E-8625-99ECD8337349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8749A80-B567-497E-8625-99ECD8337349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
