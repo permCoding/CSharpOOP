@@ -177,7 +177,7 @@ _ Некоторые операции LINQ, например Count или Max, �
 **03.11.2020**  
 
 [Репозиторий CsvHelper](https://joshclose.github.io/CsvHelper/)  
-
+[Учтановка CsvHelper через NuGet](https://github.com/permCoding/CSharpOOP/blob/master/images/CsvHelperNuGet.jpg)  
 ---  
 
 **Лекция 17, 18** - **SQLite**  
