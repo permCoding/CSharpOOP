@@ -176,12 +176,12 @@ _ Некоторые операции LINQ, например Count или Max, �
 **Лекция 15, 16** - **CSV**  
 **03.11.2020**  
 
+[Репозиторий CsvHelper](https://joshclose.github.io/CsvHelper/)  
+
 ---  
 
 **Лекция 17, 18** - **SQLite**  
 **10.11.2020**  
-
-[Репозиторий CsvHelper](https://joshclose.github.io/CsvHelper/)  
 
 ---  
 
