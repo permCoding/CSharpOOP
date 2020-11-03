@@ -33,7 +33,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTest", "LINQTest\LINQTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTestQuery", "LINQTestQuery\LINQTestQuery.csproj", "{5D3A60AF-2067-4477-8F7B-00B52A65C635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQCsv", "LINQCsv\LINQCsv.csproj", "{C8749A80-B567-497E-8625-99ECD8337349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQCsv", "LINQCsv\LINQCsv.csproj", "{C8749A80-B567-497E-8625-99ECD8337349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClientTest", "WebClientTest\WebClientTest.csproj", "{CAF90198-2001-43FF-8259-7AD2B1427674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{C8749A80-B567-497E-8625-99ECD8337349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8749A80-B567-497E-8625-99ECD8337349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8749A80-B567-497E-8625-99ECD8337349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF90198-2001-43FF-8259-7AD2B1427674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF90198-2001-43FF-8259-7AD2B1427674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF90198-2001-43FF-8259-7AD2B1427674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF90198-2001-43FF-8259-7AD2B1427674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
