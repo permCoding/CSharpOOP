@@ -5,11 +5,7 @@ using System.Text;
 
 namespace LINQCsv.Models
 {
-    public interface IUnionType
-    {
-
-    }
-    public class Student: IUnionType
+    public class Student
     {
         //[Name("idStudent")] // так пишут атрибут, если нужно сменить имя поля
         public int IdStudent { get; set; }

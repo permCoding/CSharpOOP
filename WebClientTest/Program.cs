@@ -18,7 +18,6 @@ namespace WebClientTest
             Console.WriteLine(s);
 
 
-
             #region примеры обработки чисел с точкой            
             //Console.WriteLine(double.Parse("1,5") + 0.10);
 

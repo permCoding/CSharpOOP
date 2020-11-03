@@ -279,7 +279,7 @@ namespace LINQCsv
         {
             //example_00();
 
-            //example_01();
+            example_01();
 
             //example_02();
 
@@ -300,7 +300,7 @@ namespace LINQCsv
 
             //example_10();
 
-            example_11();
+            //example_11();
 
             Console.ReadLine();
         }
