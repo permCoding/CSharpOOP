@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 !*.txt
-!LinqLabRab/binDebug/directions.txt
-!LinqLabRab/binDebug/students.txt
+!/LinqLabRab/bin/Debug/directions.txt
+!/LinqLabRab/bin/Debug/students.txt
 
 # User-specific files
 *.rsuser
