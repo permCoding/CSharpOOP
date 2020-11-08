@@ -187,6 +187,9 @@ _ Некоторые операции LINQ, например Count или Max, �
 [SQL Server Express](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)  
 [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)  
 В нашем решении проект **LINQ_MSSQL**  
+Разбор задач:  
+* task_08  
+* rating  
 
 ---  
 
