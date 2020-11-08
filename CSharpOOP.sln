@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQCsv", "LINQCsv\LINQCsv.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClientTest", "WebClientTest\WebClientTest.csproj", "{CAF90198-2001-43FF-8259-7AD2B1427674}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_MS_SQL", "LINQ_MS_SQL\LINQ_MS_SQL.csproj", "{51470762-8C60-47E4-899E-EEBC9798E7AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{CAF90198-2001-43FF-8259-7AD2B1427674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF90198-2001-43FF-8259-7AD2B1427674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAF90198-2001-43FF-8259-7AD2B1427674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51470762-8C60-47E4-899E-EEBC9798E7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51470762-8C60-47E4-899E-EEBC9798E7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51470762-8C60-47E4-899E-EEBC9798E7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51470762-8C60-47E4-899E-EEBC9798E7AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

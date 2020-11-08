@@ -181,7 +181,15 @@ _ Некоторые операции LINQ, например Count или Max, �
 
 ---  
 
-**Лекция 17, 18** - **SQLite**  
+**Лекция 17, 18** - **LINQ to SQL**  
+**10.11.2020**  
+[SQL Server Express](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)  
+[SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)  
+В нашем решении проект **LINQ_MSSQL**  
+
+---  
+
+**Лекция 19, 20** - **SQLite**  
 **10.11.2020**  
 
 ---  
