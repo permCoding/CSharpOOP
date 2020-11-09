@@ -1,11 +1,12 @@
-﻿using CsvHelper;
-using LINQCsv.Models;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+
+using LINQCsv.Models;
+using CsvHelper;
 
 namespace LINQCsv
 {
@@ -184,11 +185,11 @@ namespace LINQCsv
                 using (CsvWriter cw = new CsvWriter(sw, CultureInfo.CurrentCulture))
                 {
                     cw.Configuration.NewLine = CsvHelper.Configuration.NewLine.LF;
-                    //cw.WriteHeader<Student>();
+                    //cw.WriteHeader<Student>(); // записать заголовки
                     //cw.NextRecord();
                     foreach (var item in filter)
                     {
-                        //cw.WriteRecord(item);
+                        //cw.WriteRecord(item); // писать объект как есть
                         cw.WriteRecord(new { item.IdStudent, item.NameStudent, item.Sex, item.Balls, item.IdDirect });
                         cw.NextRecord();
                     }
@@ -217,14 +218,14 @@ namespace LINQCsv
             StreamReader sr = new StreamReader(nameFile);
             CsvReader cr = new CsvReader(sr, CultureInfo.CurrentCulture);
             cr.Configuration.Delimiter = ";";
-            var anonymousTypeDefinition = new
+            var AnonymousType = new
             { //idDirect; NameDirect; minBall; limit
                 idDirect = default(int),
                 NameDirect = string.Empty,
                 minBall = default(int),
                 limit = default(int)
             };
-            var records = cr.GetRecords(anonymousTypeDefinition);
+            var records = cr.GetRecords(AnonymousType);
             //foreach (var item in students)
             //    Console.WriteLine((Student)item);
 
@@ -232,7 +233,7 @@ namespace LINQCsv
 
             sr.Close(); cr.Dispose();
         }
-        static List<Student> GetStudents(string nameFile) // CsvReader LINQ return - для example_08
+        static List<Student> GetStudents(string nameFile) // CsvReader LINQ return - для example_11
         {
             List<Student> students; // тут будет результат
             using (StreamReader sr = new StreamReader(nameFile))

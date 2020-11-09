@@ -180,16 +180,22 @@ _ Некоторые операции LINQ, например Count или Max, �
 [Репозиторий CsvHelper](https://joshclose.github.io/CsvHelper/)  
 [Установка CsvHelper через NuGet](https://github.com/permCoding/CSharpOOP/blob/master/images/CsvHelperNuGet.jpg)  
 
+Проект **LINQCsv** в репозитории  
+
 ---  
 
 **Лекция 17, 18** - **LINQ to SQL**  
 **10.11.2020**  
 [SQL Server Express](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)  
 [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)  
-В нашем решении проект **LINQ_MSSQL**  
+
+Проект **LINQ_MSSQL** в репозитории  
+
 Разбор задач:  
-* task_08 - **LinqLabRab** 
-* rating - **TaskRating** 
+* task_08 - **LinqLabRab**  
+* rating - **TaskRating**  
+
+Нужно завершить рассмотрение проекта с предыдущей Лекции.  
 
 ---  
 
