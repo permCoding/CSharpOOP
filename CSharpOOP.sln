@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_MS_SQL", "LINQ_MS_SQL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLabRab", "LinqLabRab\LinqLabRab.csproj", "{245C7121-77C6-4841-8B7F-818861359A82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRating", "TaskRating\TaskRating.csproj", "{FBDD0164-6495-4D9C-8270-78C006D572EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{245C7121-77C6-4841-8B7F-818861359A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245C7121-77C6-4841-8B7F-818861359A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{245C7121-77C6-4841-8B7F-818861359A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

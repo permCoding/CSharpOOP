@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LinqLabRab
 {
     class Program
-    {
+    {   
         static void task_8_SelectMany_test(Student[] students, Direct[] directions)
         {
             var groups = directions
@@ -121,7 +121,9 @@ namespace LinqLabRab
             (те, которые уложились в лимит набора)
         */
         static void Main(string[] args)
-        {   
+        {
+            Example.example_dynamic();
+
             #region get data students, directions
             var students = File
                 .ReadAllLines("students.txt")
@@ -141,10 +143,10 @@ namespace LinqLabRab
 
             //var result = task_8_SelectMany(students, directions);
             //var result = task_8_Join_GroupBy(students, directions);
-            var result = task_8_GroupJoin(students, directions);
+            //var result = task_8_GroupJoin(students, directions);
 
-            foreach (var item in result)
-                Console.WriteLine($"{item.AVG:f2} {item.ND}");
+            //foreach (var item in result)
+            //    Console.WriteLine($"{item.AVG:f2} {item.ND}");
 
             Console.ReadLine();
         }

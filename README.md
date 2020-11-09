@@ -188,8 +188,8 @@ _ Некоторые операции LINQ, например Count или Max, �
 [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)  
 В нашем решении проект **LINQ_MSSQL**  
 Разбор задач:  
-* task_08  
-* rating  
+* task_08 - **LinqLabRab** 
+* rating - **TaskRating** 
 
 ---  
 
