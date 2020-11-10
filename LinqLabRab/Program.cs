@@ -122,7 +122,7 @@ namespace LinqLabRab
         */
         static void Main(string[] args)
         {
-            Example.example_dynamic();
+            //Example.example_dynamic();
 
             #region get data students, directions
             var students = File
@@ -143,10 +143,10 @@ namespace LinqLabRab
 
             //var result = task_8_SelectMany(students, directions);
             //var result = task_8_Join_GroupBy(students, directions);
-            //var result = task_8_GroupJoin(students, directions);
+            var result = task_8_GroupJoin(students, directions);
 
-            //foreach (var item in result)
-            //    Console.WriteLine($"{item.AVG:f2} {item.ND}");
+            foreach (var item in result)
+                Console.WriteLine($"{item.AVG:f2} {item.ND}");
 
             Console.ReadLine();
         }
