@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLabRab", "LinqLabRab\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRating", "TaskRating\TaskRating.csproj", "{FBDD0164-6495-4D9C-8270-78C006D572EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task10", "Task10\Task10.csproj", "{ABE25FD5-E99A-439D-A7D5-79FF1C27A6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogsSolver", "FrogsSolver\FrogsSolver.csproj", "{F7ED5F49-4AF2-4487-A416-E6EF11B649C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDD0164-6495-4D9C-8270-78C006D572EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE25FD5-E99A-439D-A7D5-79FF1C27A6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE25FD5-E99A-439D-A7D5-79FF1C27A6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE25FD5-E99A-439D-A7D5-79FF1C27A6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE25FD5-E99A-439D-A7D5-79FF1C27A6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ED5F49-4AF2-4487-A416-E6EF11B649C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ED5F49-4AF2-4487-A416-E6EF11B649C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ED5F49-4AF2-4487-A416-E6EF11B649C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ED5F49-4AF2-4487-A416-E6EF11B649C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
