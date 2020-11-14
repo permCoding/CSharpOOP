@@ -10,7 +10,7 @@ namespace FrogsSolver
     {
         static void Solver_1()
         {
-            SolverQueue_1 slv = new SolverQueue_1("OXO_OXX");
+            SolverQueue_1 slv = new SolverQueue_1("XXX_OOO");
 
             Console.WriteLine(String.Join("\n", slv.que));
 
@@ -20,7 +20,7 @@ namespace FrogsSolver
         }
         static void Solver_2()
         {
-            SolverQueue_2 slv = new SolverQueue_2("OXO_OXX");
+            SolverQueue_2 slv = new SolverQueue_2("XXX_OOO");
 
             slv.FindNext();
 
@@ -41,7 +41,7 @@ namespace FrogsSolver
         }
         static void Solver_3()
         {
-            SolverQueue_3 slv = new SolverQueue_3("OXO_OXX");
+            SolverQueue_3 slv = new SolverQueue_3("XXX_OOO");
 
             slv.FindNext();
 

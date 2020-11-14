@@ -110,6 +110,15 @@ namespace FrogsSolver
 
             Stop = new string('O', length/2) + '_' + new string('X', length/2);
         }
+        public SolverQueue_3(string start, string stop)
+        {
+            Start = start;
+            length = start.Length; // ширина поля
+            que = new Queue<List<string>>();
+            que.Enqueue(new List<string> { Start });
+
+            Stop = stop;
+        }
         public void FindNext()
         {
             while (check && (que.Count > 0))
