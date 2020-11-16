@@ -12,6 +12,7 @@
 [LABRAB 2 Часть 1,2,3](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB2.md)  
 [LABRAB 3](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB3.md)  
 [LABRAB 4 - Stepik LINQ](https://stepik.org/lesson/428388/step/1?unit=418276) - дедлайн 08.11.2020 24:00  
+[LABRAB 5 - Stepik Queue](https://stepik.org/lesson/438758/step/1?unit=428866) - дедлайн 29.11.2020 24:00  
 
 ```
 
