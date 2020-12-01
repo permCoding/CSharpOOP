@@ -14,9 +14,18 @@ namespace Interface1
             // как объединить разные типы в один список?
             #endregion
 
-            var fig1 = new King();
-            fig1.GoTo();
-            fig1.PrintPos();
+            King fig1 = new King();
+            var fig2 = new Pawn();
+
+            List<IMove> lst = new List<IMove>() { fig1, fig2 };
+
+            lst.Add(new Rook());
+
+            foreach (IMove fig in lst)
+                fig.GoTo();
+
+            foreach (IMove fig in lst)
+                fig.PrintPos();
 
             Console.ReadLine();
         }

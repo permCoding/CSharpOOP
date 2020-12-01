@@ -6,25 +6,23 @@ using System.Threading.Tasks;
 
 namespace Interface1
 {
-    public class King
+    public class King : IMove
     {
         public int Pos { get; set; }
-
         public int GoTo()
         {
             return ++Pos;
         }
-
         public void PrintPos()
         {
             Console.WriteLine($"king's position - {Pos}");
         }
-        public King()
+        public King(int pos = 0)
         {
-            Pos = 0;
+            Pos = pos;
         }
     }
-    public class Pawn
+    public class Pawn : IMove
     {
         public int Pos { get; set; }
 
@@ -43,8 +41,20 @@ namespace Interface1
             Pos = 0;
         }
     }
-    public class Rook
+    public class Rook : IMove
     {
-
+        public int Pos { get; set; }
+        public int GoTo()
+        {
+            return 0;
+        }
+        public void PrintPos()
+        {
+            //
+        }
+        public Rook(int pos = 0)
+        {
+            Pos = pos;
+        }
     }
 }
