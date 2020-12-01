@@ -28,8 +28,8 @@ namespace Interface3
             lt2.screen = new ScreenRotate();
             lt2.screen.Colors = 32;
             lt2.screen.Width = 1920;
-            lt2.screen.Height = 1080;            
-            // Direction - false - true
+            lt2.screen.Height = 1080;
+            ((ScreenRotate)lt2.screen).Direction = true;
             lt2.screen.PrintInfo(Properties.Resources.algo);
 
             Console.ReadLine();
