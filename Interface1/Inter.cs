@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interface1
 {
-    interface IMove
+    interface IFigure
     {
         int Pos { get; set; }
         int GoTo();

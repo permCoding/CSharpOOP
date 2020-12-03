@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interface1
 {
-    public class King : IMove
+    public class King : IFigure
     {
         public int Pos { get; set; }
         public int GoTo()
@@ -22,7 +22,7 @@ namespace Interface1
             Pos = pos;
         }
     }
-    public class Pawn : IMove
+    public class Pawn : IFigure
     {
         public int Pos { get; set; }
 
@@ -41,7 +41,7 @@ namespace Interface1
             Pos = 0;
         }
     }
-    public class Rook : IMove
+    public class Rook : IFigure
     {
         public int Pos { get; set; }
         public int GoTo()

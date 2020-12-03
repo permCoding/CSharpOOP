@@ -16,15 +16,15 @@ namespace Interface1
 
             King fig1 = new King();
             var fig2 = new Pawn();
-
-            List<IMove> lst = new List<IMove>() { fig1, fig2 };
+            // я сменил название IMove на более адекватное IFigure
+            List<IFigure> lst = new List<IFigure>() { fig1, fig2 };
 
             lst.Add(new Rook());
 
-            foreach (IMove fig in lst)
+            foreach (IFigure fig in lst)
                 fig.GoTo();
 
-            foreach (IMove fig in lst)
+            foreach (IFigure fig in lst)
                 fig.PrintPos();
 
             Console.ReadLine();
