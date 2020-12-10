@@ -14,7 +14,7 @@
 [LABRAB 4 - Stepik LINQ](https://stepik.org/lesson/428388/step/1?unit=418276) - дедлайн 08.11.2020 24:00  
 [LABRAB 5 - Stepik Queue](https://stepik.org/lesson/438758/step/1?unit=428866) - дедлайн 29.11.2020 24:00  
 [LABRAB 6 - Interfaces](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB6.md) - дедлайн 11.12.2020 24:00  
-[LABRAB 7 - Полиморфизм](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB7.md) - дедлайн 18.12.2020 24:00  
+[LABRAB 7 - Polymorphism](https://github.com/permCoding/CSharpOOP/blob/master/LABRAB7.md) - дедлайн 18.12.2020 24:00  
 
 Итоговую оценку за семестр можно получить успешно сдав лабораторные работы.  
 В случае наличия долгов или слабых оценок необходимо будет пройти собеседование по теории по списку вопросов для данной дисциплины.  
